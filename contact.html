@@ -7,57 +7,62 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-	<div>
-		<h1>Dylan Acup</h1>
-	</div>
+<header>
+	<div class="header">
+		<div class="name">
+			<h1>Dylan Acup</h1>
+		</div>
 	
-	<div>
-		<ul id="menu">
-			<li>
-				<a href="index.html">About</a>
-			</li>
-			<li>
-				<a href="portfolio.html">Portfolio</a>
-			</li>
-			<li>
-				<a href="contact.html">Contact</a>
-			</li>
-		</ul>
+		<div>
+			<p>
+				<a href="index.html">About </a> |
+				<a href="portfolio.html"> Portfolio </a> |
+				<a href="contact.html"> Contact</a>
+			</p>
+		</div>
 	</div>
+</header>
 
-	<div>
-		<h2>Contact</h2>
-		<hr>
-		<div id="contact-form">
+<body>
+
+<section>
+	<div class="main-section">
+		<div class="main-title">
+			<h2>Contact</h2>
+		</div>
+		<div class="main-body contact">
 			<form action="mailto:dacup72@gmail.com" method="post" enctype="text/plain">
 				Name:<br>
-				<input type="text" name="name"><br>
-				Email:<br>
-				<input type="text" name="email"><br>
-				Message:<br>
-				<input type="text" name="message" size="50"><br>
-				<input type="submit" value="send"><br>
+				<input type="text" name="Name" class="text-box" placeholder="John Smith"><br>
+				<br>Email:<br>
+				<input type="text" name="Email" class="text-box" placeholder="example@gmail.com"><br>
+				<br>Message:<br>
+				<textarea name="Message" rows="12" cols="72" class="textarea"></textarea>
+				<br><br>
+				<button type="submit" value="submit" class="button">Submit</button><br>
 			</form>
 		</div>
 	</div>
+</section>
 
-	<div>
-		<h3>Connect with Me</h3>
-		<hr>
-		<a href="https://github.com/dacup72" target="_blank">
-			<img src="assets/images/" alt="GitHub" style="">
-		</a>
-		<a href="https://www.linkedin.com/in/dylan-acup-bb65a49b/" target="_blank">
-			<img src="assets/images/" alt="Linked In" style="">
-		</a>
-		<a href="http://stackoverflow.com/users/7771120/d-acup" target="_blank">
-			<img src="assets/images/" alt="Stack Overflow" style="">
-		</a>
+<section>
+	<div class="social-section">
+		<div class="connect">
+			<h2>Connect with Me</h2>
+		</div>
+		<div class="social-links">
+			<a href="https://github.com/dacup72" target="_blank">
+			<img src="assets/images/gitHub.png" alt="GitHub" class="icon"></a>
+			<a href="https://www.linkedin.com/in/dylan-acup-bb65a49b/" target="_blank">
+			<img src="assets/images/linkedIn.png" alt="Linked In" class="icon"></a>
+			<a href="http://stackoverflow.com/users/7771120/d-acup" target="_blank">
+			<img src="assets/images/stackOverflow.png" alt="Stack Overflow" class="icon"></a>
+		</div>
 	</div>
+</section>
 
 	<footer>
-		@Copyright 2017 Dylan Acup
+		<h6>@Copyright 2017 Dylan Acup</h6>
 	</footer>
 	
 </body>
