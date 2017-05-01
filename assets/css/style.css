@@ -118,6 +118,37 @@ body {
 	font-size: 18px;
 }
 
+.portfolio-pic-left {
+	float: left;
+	height: 200px;
+	margin: 0px 15px 30px 0px;
+}
+
+.portfolio-pic-right {
+	float: left;
+	height: 200px;
+	margin: 0px 0px 30px 15px;
+}
+
+.pic-text {
+	height: 40px;
+	width: auto;
+	bottom: 60px;
+	background-color: teal;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	position: relative;
+}
+
+.pic-size {
+	height: 200px;
+	width: 275px;
+	border: gray solid 1px;
+	border-radius: 10px;
+}
+
 footer {
 	clear: both;
 	text-align: center;
