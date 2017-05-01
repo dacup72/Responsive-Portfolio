@@ -5,14 +5,19 @@
 	box-sizing: border-box;
 }
 
-.header {
+header {
 	background-color: white;
 	border-bottom: gray solid 3px;
 	height: 100px;
+	width: 100%;
 	line-height: 90px;
 	padding-right: 170px;
 	text-align: right;
 	vertical-align: middle;
+	float: left;
+	position: absolute;
+	margin: -20px 0px 0px -20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .name {
@@ -38,7 +43,7 @@ body {
 	border: gray solid 2px;
 	width: 650px;
 	height: auto;
-	margin: 30px 30px 30px 150px;
+	margin: 110px 30px 30px 130px;
 	float: left;
 }
 
@@ -61,6 +66,7 @@ body {
 	width: 300px;
 	float: left;
 	margin-right:20px;
+	outline: teal solid 4px;
 }
 
 .social-section {
@@ -68,7 +74,7 @@ body {
 	background-color: white;
 	width: auto;
 	height: 150px;
-	margin: 30px 30px 30px 30px;
+	margin: 110px 30px 30px 30px;
 	padding: 20px;
 	border: gray solid 2px;
 }
@@ -153,7 +159,6 @@ footer {
 	clear: both;
 	text-align: center;
 	width: auto;
-	height: 80px;
 	border-top: black solid 5px;
 	color: white;
 	background-color: teal;
@@ -164,4 +169,44 @@ a {
 	text-decoration: none;
 	color: gray;
 	font-weight:600;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+.content {
+	min-height: 100%;
+}
+
+.content-inside {
+	padding: 20px;
+	padding-bottom: 80px; 
+}
+
+.footer {
+	height: 80px;
+	margin-top: -80px;
+}
+
+a:hover {
+	color: black;
+}
+
+.rotate:hover  {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+p {
+	text-indent: 20px;
+	font-size: 20px;
+}
+
+button:hover {
+	background-color: black;
 }
