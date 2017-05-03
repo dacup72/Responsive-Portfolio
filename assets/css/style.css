@@ -210,3 +210,7 @@ p {
 button:hover {
 	background-color: black;
 }
+
+.page-link a {
+	padding: 5px;
+}
