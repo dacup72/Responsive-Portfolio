@@ -1,0 +1,83 @@
+.portfolio-pic-left {
+	float: left;
+	left: 37px;
+	bottom: 30px;
+	position: relative;
+}
+.portfolio-pic-right {
+	float: left;
+	left: 112px;
+	bottom: 30px;
+	position: relative;
+}
+.pic-text {
+	height: 40px;
+	width: 200px;
+	background-color: teal;
+	color: white;
+	animation: colors 4s ease-in-out infinite;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	position: relative;
+	left: 15px;
+	margin-left: 50% -100px;
+}
+.pic-size {
+	height: 220px;
+	width: 220px;
+	left: 50% -110px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
+.spinny:hover {
+	border: 10px solid teal;
+	border-bottom: red;
+	border-top: red;
+	animation: spin 2s linear infinite;
+	border-radius: 50%;
+	opacity: .75;
+}
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.behind-circle {
+	background-color: transparent;
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
+
+}
+#circle1 {
+	margin-left: 37px;
+	margin-top: 20px;
+}
+#circle2 {
+	margin-left: 332px;
+	margin-top: 20px;
+}
+#circle3 {
+ 	margin-left: 37px;
+ 	margin-top: 334px;
+}
+#circle4 {
+	margin-left: 332px;
+	margin-top: 334px;
+}
+#circle5 {
+	margin-left: 37px;
+	margin-top: 648px;
+}
+#circle6 {
+	margin-left: 332px;
+	margin-top: 648px;
+}
+.z2 {
+	z-index: 2;
+}
+.z3 {
+	z-index: 3;
+}
