@@ -26,6 +26,7 @@ header {
 	margin-left: 150px;
 	color: white;
 	float: left;
+	position: fixed;
 }
 body {
 	background-image: url(../images/kindajean.png);
@@ -56,7 +57,7 @@ body {
 	background-color: white;
 	width: auto;
 	height: 150px;
-	margin: 130px 50px 30px 45px;
+	margin: 130px 0px 30px 0px;
 	padding: 20px;
 	border: gray solid 2px;
 }
@@ -87,6 +88,7 @@ footer {
 	color: white;
 	background-color: teal;
 	line-height: 80px;
+	width: auto;
 }
 a {
 	text-decoration: none;
@@ -100,7 +102,11 @@ a:hover {
   transform: rotate(-10deg);
 }
 .page-link {
-	margin-right: 172px;
+	margin-left: 765px;
+	float: left;
+	width: 300px;
+	height: auto;
+	position: fixed;
 }
 .page-link a {
 	padding: 5px;
@@ -119,4 +125,100 @@ a:hover {
     75%  { color: blue; }
     90%  { color: purple; }
     100% { color: red; }
+ }
+ .container {
+ 	width: 1280px;
+ }
+ @media screen and (max-width: 980px) {
+	.profile-photo {
+		float: none;
+	}
+	.main-section {
+		width: 400px;
+		float: left;
+	}
+	.page-link {
+		margin-left: 515px;
+	}
+	footer {
+		width: 980px;
+	}
+	.text-box {
+		width: 340px;
+	}
+	.textarea {
+		width: 340px;
+	}
+
+ }
+ @media screen and (max-width: 768px) {
+	.container {
+		width: 768px;
+	}
+	.main-section {
+		width: 690px;
+		margin-left: 30px;
+	}
+	.page-link {
+		margin-left: 400px;
+	}
+	.name {
+		margin-left: 30px;
+	}
+	.social-section {
+		margin-top: 20px;
+		margin-left: 30px;
+		width: 690px;
+	}
+	footer {
+		width: 768px;
+	}
+	.profile-photo {
+		float: left;
+	}
+	.connect {
+		text-align: left;
+	}
+	.text-box {
+		width: 630px;
+	}
+	.textarea {
+		width: 630px;
+	}
+}
+ @media screen and (max-width: 640px) {
+	.container {
+		width: 640px;
+	}
+	.profile-photo {
+		float: none;
+	}
+	.name {
+		width: 640px;
+	}
+	.page-link {
+		width: 640px;
+		float: none;
+	}
+	footer {
+		width: 640px;
+	}
+	.mains-section {
+		width: 620px;
+		margin: 20px;
+	}
+	.social-section {
+		width: 620px;
+		margin: 20px; 
+
+	}
+	header {
+		position: static;
+	}
+	.page-links {
+		position: static;
+	}
+	.name {
+		position: static;
+	}
  }
