@@ -17,7 +17,7 @@ header {
 	z-index: 3;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-.name {
+.header_name {
 	background-color: teal;
 	border: gray solid 1px;
 	width: 250px;
@@ -162,7 +162,7 @@ a:hover {
 	.page-link {
 		margin-left: 400px;
 	}
-	.name {
+	.header_name {
 		margin-left: 30px;
 	}
 	.social-section {
@@ -193,7 +193,7 @@ a:hover {
 	.profile-photo {
 		float: none;
 	}
-	.name {
+	.header-name {
 		width: 640px;
 	}
 	.page-link {
@@ -218,7 +218,7 @@ a:hover {
 	.page-links {
 		position: static;
 	}
-	.name {
+	.header_name {
 		position: static;
 	}
  }
