@@ -1,77 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-
 <head>
-	<title>Dylan's Portfolio</title>
-	<meta charset="utf-8">
-	<!-- <meta name="viewport" content="width=device-width"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+	<title>Contact | Dylan Acup</title>
+
 	<link rel="shortcut icon" href="assets/images/waves.ico"/>
-	<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-	
 <body>
 
-	<header>
-		<div class="name">
-			<h1 class="name-color">Dylan Acup</h1>
-		</div>
-		<div class="page-link">
-			<a href="index.html">About </a> |
-			<a href="portfolio.html"> Portfolio </a> |
-			<a href="contact.html" class="underline"> Contact</a>
-		</div>
-	</header>
+<div class="body_wrapper">
 
-	<section>
-		<div class="main-section">
-			<div class="main-title">
-				<h2>Contact</h2>
-			</div>
-			<div class="main-body contact">
-				<form action="mailto:dacup72@gmail.com" method="post" enctype="text/plain">
-					<i class="fa fa-address-book" aria-hidden="true"></i>
-					Name<br>
-						<input type="text" name="Name" class="text-box" placeholder="John Smith"><br><br>
-					<i class="fa fa-address-book" aria-hidden="true"></i>
-					Email:<br>
-						<input type="text" name="Email" class="text-box" placeholder="example@gmail.com"><br><br>
-					<i class="fa fa-address-book" aria-hidden="true"></i>
-					Message:<br>
-						<textarea name="Message" rows="12" cols="72" class="textarea"></textarea><br><br>
-					<button type="submit" value="submit" class="button">Submit</button><br>
-				</form>
-			</div>
-		</div>
-	</section>
 
-	<section>
-		<div class="social-section">
-			<div class="connect">
-				<h2>Connect with Me</h2>
-			</div>
-			<div class="social-links">
-				<a href="https://github.com/dacup72" target="_blank">
-					<img src="assets/images/gitHub.png" alt="GitHub" class="icon rotate">
-				</a>
-				<a href="https://www.linkedin.com/in/dylan-acup-bb65a49b/" target="_blank">
-					<img src="assets/images/linkedIn.png" alt="Linked In" class="icon rotate">
-				</a>
-				<a href="http://stackoverflow.com/users/7771120/d-acup" target="_blank">
-					<img src="assets/images/stackOverflow.png" alt="Stack Overflow" class="icon rotate">
-				</a>
-			</div>
-		</div>
-	</section>
+<!-- HEADER -->
+  <header id="body_header">
+    <div class="container">
+      <a href="index.html" id="header_logo">Dylan Acup</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html" class="underline">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-	<footer>
-		<h6>@Copyright 2017 Dylan Acup</h6>
+
+<!-- MAIN SECTION -->
+  <main class="container">
+    <section class="main_section">
+      <h1>Contact</h1>
+
+      <form id="main_section_form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+				</ul>
+				</a>
+        <input type="submit">
+      </form>
+    </section>
+
+
+<!-- SIDEBAR -->
+    <section class="main_sidebar">
+      <h2>Connect with Me</h2>
+
+			<ul>
+				<li>
+					<a href="https://github.com/dacup72" target="_blank">
+						<img src="assets/images/gitHub.png" alt="Github" class="main_sidebar_icons">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/dylan-acup/" target="_blank">
+						<img src="assets/images/linkedIn.png" alt="LinkedIn" class="main_sidebar_icons">
+					</a>
+				</li>
+				<li>
+					<a href="http://stackoverflow.com/users/7771120/d-acup" target="_blank">
+						<img src="assets/images/stackOverflow.png" alt="Stack Overflow" class="main_sidebar_icons">
+					</a>
+				</li>
+			</ul>  
+		</section>
+	</main>
+	
+  <div class="body_push"></div>
+</div>
+
+
+<!-- FOOTER -->
+  <footer>
+    <div class="container">
+      &copy; Copyright 2018 Dylan Acup
+    </div>
 	</footer>
 	
 </body>

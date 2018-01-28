@@ -1,107 +1,64 @@
+@import url("reset.css");
 
+/* ===PORTFOLIO PAGE=== */
 
-
-
-
-
-
-
-
-
-
-
-
-/*===============================*/
-
-/* .portfolio-pic-left {
-	float: left;
-	left: 37px;
-	bottom: 30px;
-	position: relative;
+.main_section_portfolio_images {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
 }
-.portfolio-pic-right {
-	float: left;
-	left: 112px;
-	bottom: 30px;
-	position: relative;
+
+.main_section_portfolio_images:nth-child(even) {
+	margin-right: 40px;
 }
-.pic-text {
-	height: 40px;
-	width: 200px;
-	background-color: teal;
-	color: white;
-	animation: colors 4s ease-in-out infinite;
-	text-align: center;
-	line-height: 40px;
-	font-size: 20px;
-	position: relative;
-	left: 15px;
-	margin-left: 50% -100px;
-}
-.pic-size {
-	height: 220px;
-	width: 220px;
-	left: 50% -110px;
+
+.main_section_portfolio_images img {
+	width: 275px;
+	height: 275px;
+	border: 0 none;
 	border-radius: 50%;
-	margin-top: 50px;
 }
-.spinny:hover {
-	border: 10px solid teal;
-	border-bottom: red;
-	border-top: red;
+
+.link {
+	width: 275px;
+	height: 275px;
+	border-radius: 50%;
+	z-index: 3;
+}
+
+.main_section_portfolio_images h3 {
+  position: absolute;
+	bottom: 28px;
+	left: 50px;
+  width: 175px;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+	border-bottom: 0;
+	border-radius: 50px;
+}
+
+.portfolio_image--spinny {
+	width: 275px;
+	height: 275px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.portfolio_image--spinny:hover {
+	border: 10px solid #4aaaa5;
+	border-bottom: #fff;
+	border-top: #fff;
 	animation: spin 2s linear infinite;
-	border-radius: 50%;
 	opacity: .75;
 }
+
 @keyframes spin {
 	0% { transform: rotate(0deg); }
 	100% { transform: rotate(360deg); }
 }
-.behind-circle {
-	background-color: transparent;
-	height: 220px;
-	width: 220px;
-	border-radius: 50%;
-	position: absolute;
-	z-index: 2;
-
-}
-#circle1 {
-	margin-left: 37px;
-	margin-top: 20px;
-}
-#circle2 {
-	margin-left: 332px;
-	margin-top: 20px;
-}
-#circle3 {
- 	margin-left: 37px;
- 	margin-top: 334px;
-}
-#circle4 {
-	margin-left: 332px;
-	margin-top: 334px;
-}
-#circle5 {
-	margin-left: 37px;
-	margin-top: 648px;
-}
-#circle6 {
-	margin-left: 332px;
-	margin-top: 648px;
-}
-.z2 {
-	z-index: 2;
-}
-.z3 {
-	z-index: 3;
-}
-@media screen and (max-width: 980px) {
- 	
- }
- @media screen and (max-width: 768px) {
-
- }
- @media screen and (max-width: 640px) {
-
- } */

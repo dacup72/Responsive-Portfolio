@@ -1,40 +1,41 @@
+@import url("reset.css");
 
+/* ===CONTACT PAGE=== */
 
-
-
-
-
-
-
-
-
-/*=======================*/
-
-/* .text-box {
-	height: 30px;
-	width: 590px;
-	font-size: 16px;
+#main_section_form ul {
+  margin-bottom: 20px;
 }
-.textarea {
-	font-size: 16px;
-	resize: vertical;
-}
-.button {
-	color: white;
-	background-color: teal;
-	height: 40px;
-	width: 125px;
-	font-size: 18px;
-}
-button:hover {
-	background-color: black;
-}
-@media screen and (max-width: 980px) {
- 	
- }
- @media screen and (max-width: 768px) {
 
- }
- @media screen and (max-width: 640px) {
+#main_section_form li {
+  margin-bottom: 10px;
+}
 
- } */
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+.submit {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
